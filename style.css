@@ -5,12 +5,12 @@
 }
 body{
 
-    background-image: url(img/heic0601a.jpg);
+    background-image: url(img/heic0601a_300.jpg);
 
 }
 .header-img{
         height: 100vh;
-        background-image: url(img/heic0601a.jpg);
+        background-image: url(img/heic0601a_300.jpg);
         background-color: rgb(27, 4, 4); 
         width: 100vw;   
         display: flex;
@@ -67,9 +67,13 @@ iframe{
 }
 #logo{
     width: 5rem;
-    margin-top: .8rem;
+    margin-top: 2rem;
 }
 #logoImg{
     display: grid;
     justify-content: center;
+}
+footer{
+    background-image: url(img/heic0601a_300.jpg);
+    height: 300px;
 }
